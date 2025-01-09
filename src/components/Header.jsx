@@ -1,7 +1,10 @@
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className="header">
+        <h3>오늘은 📆</h3>
+        <h1>{new Date().toDateString()}</h1>
+    </div>
   )
 }
 
